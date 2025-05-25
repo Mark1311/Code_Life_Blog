@@ -14,6 +14,6 @@ class CodeLife(models.Model):
 
 
     def __str__(self):
-        return f'{self.user.username} - {self.test[:10]}'
+        return f'{self.user.username} - {self.text[:10]}'
     
     
